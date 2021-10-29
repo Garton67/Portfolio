@@ -1,0 +1,140 @@
+.main {
+    background-color: #34374d;
+    color: white;
+}
+
+section.section img{
+    width: 110px;
+    height: 110px;
+    color: white;
+}
+
+.featured-box .box-content {
+    border-radius: 0;
+    color: white;
+}
+section.section {
+    background-color: rgb(50, 52, 53);
+    color: white;
+}
+
+#header .header-body {
+    background-color: rgb(32, 33, 34);
+    color: white;
+}
+
+body {
+    background: #212529;
+    color: white;
+}
+
+.body {
+  background: #212529;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+html .text-color-dark, html .text-dark {
+    color: #fefeff !important;
+}
+
+#header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
+    color: white
+}
+
+@media (max-width: 991px)
+#header .header-nav-main{
+background-color: red;
+}
+li > a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
+  color: rgb(145, 145, 145);
+  text-align: ;
+}
+
+/******************************************************
+SKILLS
+******************************************************/
+#skills{
+  padding: 3em 5em 5em 5em;
+  border-bottom: 1px solid #BDBDBD;
+  border-top: 1px solid #BDBDBD;
+  margin-bottom: 0px;
+}
+.skill-skill{
+  font-size: 5em;
+}
+.skill{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h2:after {
+    background: none repeat scroll 0 0 #ffffff;
+    bottom: -5px;
+    content: "";
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    height: 3px;
+    position: relative;
+    width: 100px;
+}
+
+.mdl-tooltip {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 60px;
+  
+}
+
+h1 {
+  color: white;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  #wrapper{
+    background-size: 400% 250%;
+  }
+  .start>h1{
+    font-size: 1.5em;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .project-item{
+    padding: 1em 1em 1em 2em;
+    width: 92%;
+  }
+  #footer{
+    padding: 1em;
+  }
+  #skills{
+    padding: 1em;
+  }
+  .skill-skill{
+    font-size: 3em;
+  }
+}
+.lead appear-animation {
+  text-shad
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#project {
+  height: 600px;
+  background-color: pink;
+}
+
